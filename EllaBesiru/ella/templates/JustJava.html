@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,7 +89,7 @@
 	                            	<a class="nav-link active" aria-current="page" href="#">My designs</a> 
 	                            </li> 
 	                            <li class="nav-item"> 
-	                            	<a class="nav-link" href="#"><img src=""></a> 
+	                            	<a class="nav-link" href="#"><img src="{% static 'My fac.png' %}"></a>
 	                            </li>
 	                            <li class="nav-item"> 
 	                            	<a class="nav-link" href="#">Linkedin</a> 
@@ -119,7 +120,7 @@
 	        I am Emmanuella Emike Besiru, a graphics designer who hails from Benin-city, Edo state, Nigeria. I'm currently working with Welti, Bagi etc, and i also drop frequent post on social media (instagram, twitter, LinkedIn)
     	</div>
         <div>
-        	<img class="img-fluid " src="My project.png" alt="">
+        	<img class="img-fluid " src="{% static 'My project.png' %}" alt="">
         </div>
         
     </section>
